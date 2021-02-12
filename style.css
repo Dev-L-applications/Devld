@@ -1,0 +1,37 @@
+html, body {
+    background: #2980B9;
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+    min-width: 300px;
+  }
+  
+  #ville {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2em;
+    background: rgb(255, 88, 51, .8 );
+  }
+  
+  #temperature {
+    font-size: 3em;
+  }
+
+  #temperature_humidite {
+    font-size: 1em;
+    background: rgb(244, 255, 51, .2);
+  }
+
+  #temps {
+    font-size: 1em;
+    background: rgb(244, 255, 51, .2);
+  }
+
+  #ciel {
+    font-size: 1em;
+    background: rgb(244, 255, 51, .2);
+  }
+  
+  #changer {
+    background: rgba(178, 223, 251, .5);
+    cursor: pointer;
+  }

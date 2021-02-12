@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+  
+        <div class="row justify-content-center">
+          
+          <div class="col-md-8">
+            <!-- Titre -->
+            <h1 class="text-center mt-5">Météo</h1>
+            
+            <!-- Ville / Temperature -->
+            <div class="text-center">
+              <span id="ville">paris</span>
+
+                <div id="temperature">
+                  <span id="temperature_label">
+                    xx.x
+                    </span> °C
+                      </div>
+                  <div class="text-center">
+                      Taux : <span id="temperature_humidite">xx</span> %
+                        - vent : <span id="temps">description</span> km/h
+                      - <span id="ciel">ciel</span>
+                  </div>
+              </div>
+        </div>
+      <!-- Changer de ville -->
+      <div class="row justify-content-center">  
+          <div class="col-md-8 text-center">
+            <div id="changer" class="mt-2 text-center p-3 text-white font-weight-bold text-uppercase d-inline-block">
+              Changer de ville
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="text-center">
+    <br><br>
+    <p>Exercice réalisé par LD avec l'API OpenWeather</p>
+    </div>
+    <script src="exemple.js"></script>
+</body>
+</html>
