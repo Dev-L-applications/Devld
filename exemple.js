@@ -1,4 +1,5 @@
 let ville = "paris";
+temperatureVille(ville);
 
 function temperatureVille(ville) {
 
